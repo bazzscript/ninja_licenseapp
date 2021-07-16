@@ -12,10 +12,9 @@ class NinjaCard extends StatefulWidget {
 }
 
 class _NinjaCardState extends State<NinjaCard> {
-      int counter = 0;
+  int counter = 0;
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       backgroundColor: Colors.grey[900],
       appBar: AppBar(
